@@ -1,10 +1,10 @@
 # 模板代码的使用
 
-1. 模板代码是`main.ipynb`，打开它，一会儿需要运行
+1. 模板代码是`main.ipynb`
 
 1. **安装依赖 & 运行代码**：
     - 整个教程基于Python 3.10.x版本
-    - 需要先安装Anaconda，创建好虚拟环境
+    - 需要先安装Anaconda，[下载Anaconda](https://www.anaconda.com/download)
     - 先安装HDBSCAN：`conda install -c conda-forge hdbscan`
     - 安装其他依赖：`pip install torch==2.0.1 transformers==4.29.1 tqdm==4.65.0 numpy==1.23.2 jieba==0.42.1 bertopic==0.15.0`
     - 如果运行过程中提示缺少其他依赖，自行安装即可
