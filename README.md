@@ -1,12 +1,14 @@
 # 模板代码的使用
 
-1. 模板代码是`main.ipynb`
+这是B站视频课程[通俗易懂的BERTopic主题模型教程（可代替LDA、DTM），39集全套教程](https://space.bilibili.com/10989976/channel/collectiondetail?sid=2819272&spm_id_from=333.788.0.0)对应的完整笔记、数据、代码。详细视频教程请点击链接查看。
+
+1. **⭐ 模板代码是`main.ipynb`，下载该项目，按视频课程配置好环境后，该文件中的代码可一键运行，提升科研效率！！！⭐**
 
 1. **安装依赖 & 运行代码**：
-    - 整个教程基于Python 3.10.x版本
+    - 整个教程基于Python 3.10.x版本（具体到我的环境，是Python 3.10.6）
     - 需要先安装Anaconda，[下载Anaconda](https://www.anaconda.com/download)
     - 先安装HDBSCAN：`conda install -c conda-forge hdbscan`
-    - 安装其他依赖：`pip install torch==2.0.1 transformers==4.29.1 tqdm==4.65.0 numpy==1.23.2 jieba==0.42.1 bertopic==0.15.0`
+    - 安装其他依赖：`pip install torch==2.0.1 transformers==4.29.1 tqdm==4.65.0 numpy==1.23.2 jieba==0.42.1 bertopic==0.15.0 nbformat==5.9.0`
     - 如果运行过程中提示缺少其他依赖，自行安装即可
     - 然后，直接运行`main.ipynb`，就能看到运行结果了
 
